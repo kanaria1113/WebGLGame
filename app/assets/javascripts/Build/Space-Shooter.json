@@ -1,9 +1,9 @@
 {
 "companyName": "DefaultCompany",
 "productName": "shooting-test",
-"dataUrl": "Space-Shooter.data.unityweb",
-"wasmCodeUrl": "Space-Shooter.wasm.code.unityweb",
-"wasmFrameworkUrl": "Space-Shooter.wasm.framework.unityweb",
+"dataUrl": "../Build/Space-Shooter.data.unityweb",
+"wasmCodeUrl": "../Build/Space-Shooter.wasm.code.unityweb",
+"wasmFrameworkUrl": "../Build/Space-Shooter.wasm.framework.unityweb",
 "TOTAL_MEMORY": 268435456,
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
