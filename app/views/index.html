@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>WebGLGame</title>
+    <link rel="shortcut icon" href="../assets/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="../assets/TemplateData/style.css">
+    <script src="../assets/TemplateData/UnityProgress.js"></script>
+    <script src="../assets/Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "../assets/Build/deploy_test.json", { onProgress: UnityProgress });
+    </script>
+   </head>
+    </div>
+    <audio autoplay id="audio">
+        <source src="audio/unitygame.mp3">
+      </audio>
+  <body>
+    <div class="back-line">
+      <img src="../assets/壁紙.png">
+    </div>
+
+    <div class="contents">
+    <img src="../assets/unity-chan-logo.png" class="logo">
+    <img src="../assets/Unity-Chan.png" class="character">
+    <div id="gameContainer" class="game"></div>
+  </div>
+
+    <h3 class="footer">この作品は<a href="http://unity-chan.com/contents/license_jp/" target="_blank">ユニティちゃんライセンス条項</a>の元に提供されています<img src="../assets/Light_Frame.png" alt="ユニティちゃんライセンス"/></h3>
+  </body>
+
+</html>

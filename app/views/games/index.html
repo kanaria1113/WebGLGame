@@ -4,17 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>WebGLGame</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="../assets/Build/UnityLoader.js"></script>
+    <link rel="shortcut icon" href="../assets/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="../assets/TemplateData/style.css">
     <script src="../assets/TemplateData/UnityProgress.js"></script>
+    <script src="../assets/Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Space-Shooter.json");
+      var gameInstance = UnityLoader.instantiate("gameContainer", "../assets/Build/Space-Shooter.json", { onProgress: UnityProgress });
     </script>
    </head>
     </div>
-    <audio autoplay id="audio">
-        <source src="audio/unitygame.mp3">
-      </audio>
   <body>
     <div class="back-line">
       <img src="../assets/壁紙.png">
