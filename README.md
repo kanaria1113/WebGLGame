@@ -1,24 +1,19 @@
-# README
+# README　このアプリについて
+***
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Space-Shooterとは
+プログラミングスクールTECH::EXPERT64期個人アプリ開発物
+プログラミングに触れ新しい言語で何か作れないかと思い、
+ゲーム好きからUnityに挑戦を試みる。
 
-Things you may want to cover:
+## アプリケーション概要
+* アプリ名：Space-Shooter
+* 使用言語：Unity(C#)/HTML/CSS/Ruby/Rails/
+* 機能：レベルアップで自機強化とボム発射
+* 作業人数：１人
+* 作業期間：１０日
 
-* Ruby version
+### URL：[https://webgl-spaceshooter.herokuapp.com/](https://webgl-spaceshooter.herokuapp.com/)
 
-* System dependencies
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
